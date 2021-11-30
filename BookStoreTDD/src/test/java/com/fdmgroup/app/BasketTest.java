@@ -14,6 +14,7 @@ public class BasketTest {
 	Book book;
 	Book book2;
 	
+	//@Before will run before each test
 	@Before
 	public void init() {
 		basket = new Basket();
